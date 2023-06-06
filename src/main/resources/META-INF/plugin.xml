@@ -52,7 +52,8 @@
   
   <extensions defaultExtensionNs="com.intellij">
     <applicationService serviceImplementation="com.chylex.intellij.inspectionlens.InspectionLensPluginDisposableService" />
-    <applicationConfigurable parentId="appearance" instance="com.chylex.intellij.inspectionlens.config.InspectionLensConfigurable" displayName="Inspection Lens" />
+    <colorAndFontPanelFactory implementation="com.chylex.intellij.inspectionlens.config.InspectionLensColorsPageFactory" />
+    <colorAndFontDescriptorProvider implementation="com.chylex.intellij.inspectionlens.config.InspectionLensColorsPageFactory" />
   </extensions>
   
   <applicationListeners>
