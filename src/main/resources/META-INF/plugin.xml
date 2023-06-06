@@ -54,6 +54,12 @@
     <applicationService serviceImplementation="com.chylex.intellij.inspectionlens.InspectionLensPluginDisposableService" />
     <colorAndFontPanelFactory implementation="com.chylex.intellij.inspectionlens.config.InspectionLensColorsPageFactory" />
     <colorAndFontDescriptorProvider implementation="com.chylex.intellij.inspectionlens.config.InspectionLensColorsPageFactory" />
+    
+    <additionalTextAttributes scheme="Default" file="colorSchemes/Default.xml"/>
+    <additionalTextAttributes scheme="Dark" file="colorSchemes/Dark.xml"/>
+    <additionalTextAttributes scheme="Light" file="colorSchemes/Light.xml"/>
+    <additionalTextAttributes scheme="Darcula" file="colorSchemes/Darcula.xml"/>
+    <additionalTextAttributes scheme="High Contrast" file="colorSchemes/HighContrast.xml"/>
   </extensions>
   
   <applicationListeners>

@@ -1,6 +1,7 @@
 package com.chylex.intellij.inspectionlens.config
 
 import com.chylex.intellij.inspectionlens.InspectionLensBundle
+import com.chylex.intellij.inspectionlens.colors.InspectionLensColors
 import com.intellij.application.options.colors.*
 import com.intellij.openapi.editor.colors.EditorSchemeAttributeDescriptor
 import com.intellij.openapi.options.colors.AttributesDescriptor
@@ -28,7 +29,12 @@ class InspectionLensColorsPageFactory : ColorAndFontPanelFactory, ColorAndFontDe
     }
 
     override fun getAttributeDescriptors(): Array<AttributesDescriptor> {
-        return arrayOf()
+        return arrayOf(
+            AttributesDescriptor(
+                InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.error"),
+                InspectionLensColors.ERROR_ATTRIBUTES
+            ),
+        )
     }
 
     override fun getColorDescriptors(): Array<ColorDescriptor> {
