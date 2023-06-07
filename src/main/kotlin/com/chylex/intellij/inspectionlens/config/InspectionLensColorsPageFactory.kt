@@ -34,6 +34,30 @@ class InspectionLensColorsPageFactory : ColorAndFontPanelFactory, ColorAndFontDe
                 InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.error"),
                 InspectionLensColors.ERROR_ATTRIBUTES
             ),
+            AttributesDescriptor(
+                InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.warning"),
+                InspectionLensColors.WARNING_ATTRIBUTES
+            ),
+            AttributesDescriptor(
+                InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.weak_warning"),
+                InspectionLensColors.WEAK_WARNING_ATTRIBUTES
+            ),
+            AttributesDescriptor(
+                InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.server_problem"),
+                InspectionLensColors.SERVER_PROBLEM_ATTRIBUTES
+            ),
+            AttributesDescriptor(
+                InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.grazie"),
+                InspectionLensColors.GRAZIE_ATTRIBUTES
+            ),
+            AttributesDescriptor(
+                InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.typo"),
+                InspectionLensColors.TYPO_ATTRIBUTES
+            ),
+            AttributesDescriptor(
+                InspectionLensBundle.message("configurable.inspectionlens.attribute.descriptor.other"),
+                InspectionLensColors.OTHER_ATTRIBUTES
+            ),
         )
     }
 

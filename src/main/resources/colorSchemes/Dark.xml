@@ -2,7 +2,72 @@
 <list>
     <option name="ERROR_ATTRIBUTES">
         <value>
-            <option name="FOREGROUND" value="9e2927"/>
+            <option name="FOREGROUND" value="e75a57"/>
+            <option name="BACKGROUND" value="382729"/>
+            <option name="EFFECT_COLOR"/>
+            <option name="EFFECT_TYPE"/>
+            <option name="FONT_TYPE" value="2"/>
+            <option name="ERROR_STRIPE_COLOR"/>
+        </value>
+    </option>
+    <option name="WARNING_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="d1a939"/>
+            <option name="BACKGROUND" value="353125"/>
+            <option name="EFFECT_COLOR"/>
+            <option name="EFFECT_TYPE"/>
+            <option name="FONT_TYPE" value="2"/>
+            <option name="ERROR_STRIPE_COLOR"/>
+        </value>
+    </option>
+    <option name="WEAK_WARNING_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="aba286"/>
+            <option name="BACKGROUND" value="30302f"/>
+            <option name="EFFECT_COLOR"/>
+            <option name="EFFECT_TYPE"/>
+            <option name="FONT_TYPE" value="2"/>
+            <option name="ERROR_STRIPE_COLOR"/>
+        </value>
+    </option>
+    <option name="SERVER_PROBLEM_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="d58625"/>
+            <option name="BACKGROUND" value="362c22"/>
+            <option name="EFFECT_COLOR"/>
+            <option name="EFFECT_TYPE"/>
+            <option name="FONT_TYPE" value="2"/>
+            <option name="ERROR_STRIPE_COLOR"/>
+        </value>
+    </option>
+    <option name="GRAZIE_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="55abd8"/>
+            <option name="BACKGROUND" value="25313a"/>
+            <option name="EFFECT_COLOR"/>
+            <option name="EFFECT_TYPE"/>
+            <option name="FONT_TYPE" value="2"/>
+            <option name="ERROR_STRIPE_COLOR"/>
+        </value>
+    </option>
+    <option name="TYPO_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="60ac6a"/>
+            <option name="BACKGROUND" value="27312b"/>
+            <option name="EFFECT_COLOR"/>
+            <option name="EFFECT_TYPE"/>
+            <option name="FONT_TYPE" value="2"/>
+            <option name="ERROR_STRIPE_COLOR"/>
+        </value>
+    </option>
+    <option name="OTHER_ATTRIBUTES">
+        <value>
+            <option name="FOREGROUND" value="9b9b9b"/>
+            <option name="BACKGROUND" value="2e2f32"/>
+            <option name="EFFECT_COLOR"/>
+            <option name="EFFECT_TYPE"/>
+            <option name="FONT_TYPE" value="2"/>
+            <option name="ERROR_STRIPE_COLOR"/>
         </value>
     </option>
 </list>
