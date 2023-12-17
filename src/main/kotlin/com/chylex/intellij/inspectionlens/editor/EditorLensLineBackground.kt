@@ -47,7 +47,7 @@ internal value class EditorLensLineBackground(private val highlighter: RangeHigh
 		}
 		
 		private fun getHighlightLayer(severity: LensSeverity): Int {
-			return HighlighterLayer.CARET_ROW 100 - severity.ordinal
+			return HighlighterLayer.CARET_ROW - severity.ordinal
 		}
 	}
 }
